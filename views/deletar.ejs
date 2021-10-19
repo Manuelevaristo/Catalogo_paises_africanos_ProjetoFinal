@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/stylepaises.css">
+    <link rel="stylesheet" href="/css/stylecadastro.css">
     <title>Deletar País</title>
 </head>
 <body>
@@ -55,11 +55,14 @@
                 <label for="informacoes">Digite as informações do país: </label>
                 <input type="text" name="informacoes" id="informacoes" placeholder="Adicione as informações extra sobre o país" value="<%= pais.informacoes %>">
             </div>
+            
+            <div id= "botao">
             <form action="/deletar/<%= pais.id %>" method="POST">
         
             <button type="submit">DELETAR!</button>
-        </form>
-    </section>
+            </form>
+            </div>
+        </section>
     <% }  %>
 
 </body>
