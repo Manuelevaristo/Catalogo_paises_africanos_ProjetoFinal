@@ -18,7 +18,7 @@
     <% }  %>
     
     <% if(pais != null) {  %>
-    <section id="inscrever">
+    <section id="cadastro">
         <form action="/editar/<%= pais.id %>" method="POST">
             <section id="pais">
                     
@@ -41,11 +41,11 @@
                     </div> 
                     <div>
                         <label for="extensao">Informe a extensão do país: </label>                
-                        <input type="number" name="extensao" id="extensao" placeholder="Informe a extensão" value="<%= pais.extensao %>">
+                        <input type="tex" name="extensao" id="extensao" placeholder="Informe a extensão" value="<%= pais.extensao %>">
                     </div> 
                     <div>
                         <label for="populacao">Informe a capital do população: </label>                
-                        <input type="number" name="populacao" id="populacao" placeholder="Digite a populacao" value="<%= pais.populacao %>">
+                        <input type="tex" name="populacao" id="populacao" placeholder="Digite a populacao" value="<%= pais.populacao %>">
                     </div>
                     <div>
                         <label for="lingua">Informe a lingua oficial do país: </label>                
