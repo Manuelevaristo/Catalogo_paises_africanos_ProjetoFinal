@@ -72,7 +72,7 @@ div{
 section{
     display: flex;
     flex-direction:row-reverse ;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     
 }
