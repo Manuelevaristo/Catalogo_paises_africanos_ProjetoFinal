@@ -180,6 +180,10 @@ section#detalhes div#infos  h4 {
   color: rgb(218, 181, 181);
   
 }
+section#detalhes div#infos a{
+  align-items: center;
+ 
+}
 
 section#detalhes img {
   width: 20rem;
