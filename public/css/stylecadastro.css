@@ -65,7 +65,8 @@ section{
   align-items: center;
 }
 h2{
-  color: rgb(83, 36, 36);
+  font-size: 30px;
+  color: rgb(133, 10, 10);
 }
 form{
   background-image: url(../img/guerreira.png);
@@ -88,11 +89,11 @@ div{
 }
 
 section#cadastro form div input {
-  width: 80%;
+  width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
+  /* margin-top: 0.1rem;
+  margin-bottom: 0.1rem; */
   outline: none;
   border-radius: 2rem;
   border: 0.1rem solid #ccc;
@@ -119,5 +120,5 @@ section#cadastro form button {
 }
 section#cadastro form button:hover {
 
-  background-color: rgb(80, 9, 9);
+  background-color: rgb(230, 134, 134);
 }
