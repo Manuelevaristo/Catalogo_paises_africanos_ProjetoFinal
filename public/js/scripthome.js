@@ -1,7 +1,9 @@
 const title1= document.querySelector("#title1")
 const texto1 = document.querySelector("#text1")
+
 const title2= document.querySelector("#title2")
 const texto2 = document.querySelector("#text2")
+
 const area1 = document.querySelector("#medit")
 const area2 = document.querySelector("#subsa")
 
