@@ -75,7 +75,7 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: rgb(172, 119, 119);
+  background-color: rgb(107, 48, 48);
   border-radius: 15px;
   width: 100%;
   padding: 3rem;
@@ -88,18 +88,18 @@ div{
 }
 
 section#cadastro form div input {
-  width: 100%;
+  width: 80%;
   padding: 1rem;
   font-size: 1rem;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   outline: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: 0.1rem solid #ccc;
 }
 section#cadastro form div label {
   font-size: 1.3rem;
-  color: rgb(80, 9, 9);
+  color: rgb(27, 1, 1);
 }
 section#cadastro form button {
   border: 1px solid rgb(212, 2, 2);
