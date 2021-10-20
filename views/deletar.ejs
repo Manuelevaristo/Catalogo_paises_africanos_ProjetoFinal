@@ -10,6 +10,7 @@
 <body>
     <header>
         <h1>Aqui você pode excluir um país da lista</h1>
+    </header>
     <% if(message != "") {  %>
         <section id="message">
             <p><%= message %></p> <span id="close">&times;</span>
@@ -18,7 +19,7 @@
     
     <% if(pais != null) {  %>
     <section id="pais">
-        <form action="/deletar/<%= pais.id %>" method="POST"></form>
+        <form action="/deletar/<%= pais.id %>" method="POST">
             <div>
                 <label for="bandeira">Coloque o link para a imagem da bandeira: </label>
                 <input type="text" name="bandeira" id="bandeira" placeholder="Link da imagem" value="<%= pais.bandeira %>">
@@ -60,8 +61,9 @@
             <div id= "botao">
                    
             <button type="submit">DELETAR!</button>
-            </form>
+            
             </div>
+        </form>
         </section>
     <% }  %>
 
