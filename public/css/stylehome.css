@@ -81,8 +81,9 @@ section{
   flex-direction: column;
 }
 p{
-  width: 100px;
+  width: 150px;
   justify-items: right;
+  text-align: justify;
   color:white
   
 }
