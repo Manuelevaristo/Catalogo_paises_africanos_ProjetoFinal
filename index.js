@@ -59,8 +59,9 @@ app.get("/cadastro", (req, res) => {
     informacoes
 
   })
-  message= `O País ${pais.nome} foi cadastrado com sucesso!`;
+  // message= `O País ${pais.nome} foi cadastrado com sucesso!`;
   res.redirect("/paises");
+  message= `O País ${pais.nome} foi cadastrado com sucesso!`;
 });
 
 //updeate
