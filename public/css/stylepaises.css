@@ -190,3 +190,19 @@ section#detalhes img {
   height: 12rem;
 padding-left: 8rem;
 }
+.botao{
+  font-family: arial;
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+  border:none;
+  padding:20px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+.botao-d{
+  background:#fff;
+  color:rgb(80, 9, 9);
+  box-shadow:0 5px 0 rgb(212, 2, 2);
+}
