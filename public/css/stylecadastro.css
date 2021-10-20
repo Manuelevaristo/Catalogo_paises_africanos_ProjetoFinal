@@ -123,3 +123,8 @@ section#cadastro form button:hover {
 
   background-color: rgb(230, 134, 134);
 }
+section#message p{
+  font-size: 50px;
+  background-color: burlywood;
+  color: rgb(55, 121, 49);
+}
