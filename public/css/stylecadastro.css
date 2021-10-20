@@ -69,7 +69,7 @@ h2{
 form{
   background-image: url(../img/guerreira.png);
   background-position: right center;
-  background-size:auto;
+  background-size:contain;
   background-repeat: no-repeat;    
   display: flex;
   flex-direction: column;
