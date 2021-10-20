@@ -102,6 +102,7 @@ h3{
 }
 img{
     border-radius: 10px;
+    width: 120px;
 }
 p#sobre{
     font-size: 1.5rem;
@@ -111,4 +112,7 @@ p#sobre{
     color:white;
     margin-top: -15px;
     
+}
+a{
+    text-align: center;
 }
