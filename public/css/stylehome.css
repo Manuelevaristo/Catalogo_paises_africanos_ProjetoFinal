@@ -78,7 +78,7 @@ section{
 }
 
 #informacoes{
-    height: 800px;
+    height: 600px;
     display: flex;    
     flex-direction: column;
 }
