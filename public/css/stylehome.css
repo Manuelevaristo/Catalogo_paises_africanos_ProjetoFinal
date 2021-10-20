@@ -46,54 +46,53 @@ body{
 /* nav */
 
 header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 h1{
-    color: rgb(212, 2, 2);
-    font-family: Georgia;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-    
+  color: rgb(212, 2, 2);
+  font-family: Georgia;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  
 }
 
 div{
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-   
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ 
 }
 section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-       
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
 }
 
 #informacoes{
-    height: 600px;
-    display: flex;    
-    flex-direction: column;
+  height: 800px;
+  display: flex;    
+  flex-direction: column;
 }
 p{
-    width: 100px;
-    justify-items: right;
-    color:white
-    
+  width: 100px;
+  justify-items: right;
+  color:white
+  
 }
 #informacoes1{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 h4{
-    color: white;
-    
+  color: white;
+  
 }
