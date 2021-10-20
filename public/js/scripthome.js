@@ -15,7 +15,7 @@ area1.addEventListener("mouseout", function() {
     texto1.innerText = ""; 
 })
 
-area2addEventListener("mouseover", function() {
+area2.addEventListener("mouseover", function() {
     title2.innerText ="África Subsaariana";
     texto2.innerText = "Antes chamada África negra, corresponde à parte do continente africano situada ao sul do Deserto do Saara. Chamada de subsaariana por estar ao sul do Saara. É constituída de quarenta e oito Estados, cujas fronteiras resultaram da descolonização";   
 })

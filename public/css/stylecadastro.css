@@ -67,6 +67,10 @@ h2{
   color: yellow;
 }
 form{
+  background-image: url(../img/guerreira.png);
+  background-position: right center;
+  background-size:cover;
+  background-repeat: no-repeat;    
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
